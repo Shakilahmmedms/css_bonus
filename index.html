@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Bonous</title>
+
+    <style>
+        .photo_frame
+        {
+
+            width: 300px;
+            height: 200px;
+            border: 10px solid goldenrod;
+            position: relative;
+            border-radius: 10px;
+            margin: 10px;
+            overflow: hidden;
+        }
+        .photo_frame .photo img{
+            width: 100%;
+            height: 200px;
+        }
+        .photo_details{
+            position:absolute;
+            width: 300px;
+            height: 200px;
+            display: none;
+            top: 0;
+            text-align: center;
+
+        }
+        .photo_frame:hover .photo_details {
+             display:block; 
+            background-color:rgba(178, 115, 115,0.4);
+        }
+        .photo_frame:hover .photo_details h3{
+            color: blanchedalmond;
+            text-align: center;
+            background-color: black;
+        }
+        .photo_frame:hover .photo_details p{
+            color: white;
+        }
+        .photo_album{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .photo_frame:hover .photo img{
+            transform: scale(1.2);
+            transition: transform 1s;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>My photo book</h1>
+
+    <section class="photo_album">
+
+        <div class="photo_frame">
+            <div class="photo"><img src="images/pic1.jpg" alt=""></div>
+            <div class="photo_details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam perspiciatis nisi dolore. Repellat adipisci repudiandae numquam, architecto velit odio et eius aliquam, nisi ipsum iste eligendi sed dicta aspernatur ut.</p>
+            </div>
+        </div>
+
+        <div class="photo_frame">
+            <div class="photo"><img src="images/pic1.jpg" alt=""></div>
+            <div class="photo_details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam perspiciatis nisi dolore. Repellat adipisci repudiandae numquam, architecto velit odio et eius aliquam, nisi ipsum iste eligendi sed dicta aspernatur ut.</p>
+            </div>
+        </div><div class="photo_frame">
+            <div class="photo"><img src="images/pic1.jpg" alt=""></div>
+            <div class="photo_details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam perspiciatis nisi dolore. Repellat adipisci repudiandae numquam, architecto velit odio et eius aliquam, nisi ipsum iste eligendi sed dicta aspernatur ut.</p>
+            </div>
+        </div>
+        <div class="photo_frame">
+            <div class="photo"><img src="images/pic1.jpg" alt=""></div>
+            <div class="photo_details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam perspiciatis nisi dolore. Repellat adipisci repudiandae numquam, architecto velit odio et eius aliquam, nisi ipsum iste eligendi sed dicta aspernatur ut.</p>
+            </div>
+        </div>
+        <div class="photo_frame">
+            <div class="photo"><img src="images/pic1.jpg" alt=""></div>
+            <div class="photo_details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam perspiciatis nisi dolore. Repellat adipisci repudiandae numquam, architecto velit odio et eius aliquam, nisi ipsum iste eligendi sed dicta aspernatur ut.</p>
+            </div>
+        </div>
+        <div class="photo_frame">
+            <div class="photo"><img src="images/pic1.jpg" alt=""></div>
+            <div class="photo_details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam perspiciatis nisi dolore. Repellat adipisci repudiandae numquam, architecto velit odio et eius aliquam, nisi ipsum iste eligendi sed dicta aspernatur ut.</p>
+            </div>
+        </div>
+        <div class="photo_frame">
+            <div class="photo"><img src="images/pic1.jpg" alt=""></div>
+            <div class="photo_details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam perspiciatis nisi dolore. Repellat adipisci repudiandae numquam, architecto velit odio et eius aliquam, nisi ipsum iste eligendi sed dicta aspernatur ut.</p>
+            </div>
+        </div>
+        <div class="photo_frame">
+            <div class="photo"><img src="images/pic1.jpg" alt=""></div>
+            <div class="photo_details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam perspiciatis nisi dolore. Repellat adipisci repudiandae numquam, architecto velit odio et eius aliquam, nisi ipsum iste eligendi sed dicta aspernatur ut.</p>
+            </div>
+        </div>
+        
+
+    </section>
+    
+</body>
+</html>
